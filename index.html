@@ -19,5 +19,35 @@
     </main>
 
     <script src="script.js"></script>
+
+    <div class="creator-signature">
+    Created by <strong>H.A.K</strong>
+</div>
+
+
+<style>
+ .creator-signature {
+    position: relative;
+    top: 20px;
+    left: 300px;
+    font-size: 0.95rem;
+    color: #00c3ff;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+}
+
+.creator-signature:hover {
+    opacity: 1;
+}
+
+body.light .creator-signature {
+    color: #2563eb;
+}
+
+
+</style>
 </body>
 </html>
